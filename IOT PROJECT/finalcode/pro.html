@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>dabda</title>
+</head>
+<body>
+    <style>
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("garden.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: aliceblue;
+            text-align: left;
+            margin: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+            color: white;
+            }
+
+            .siya {
+            background-color: rgb(183, 240, 183);
+            color: black;
+            width: 109%;
+            margin-left: -75px;
+            margin-right: -150px;
+            }
+
+    </style>
+    <h1 style="font-weight: 100;"><em><center>Welcome to our</center></em></h1>
+    <br />
+    <h1 style="font-family: 'Times New Roman', Times, serif;"><center>SMART HOME GARDEN</center></h1>
+    <br />
+    <br />
+    <h2 style="font-weight: 100;"><center>With the increasing concern of global warming, there has been a greater onus on people to be part of the solution by growing their own plants. Sustainable gardening and landscaping techniques can slow future warming by reducing carbon emissions. However, plants need continuous and closely monitored care.</center></h2>
+    <br />
+    <br />
+    <h2 style="font-weight: 100;"><center>As a solution, we propose an IoT based home garden system that continuously monitors the conditions of plants and soil, so the plants could be provided water and shade as required.</center></h2>
+    <div class="siya">    
+        <h1><center>DATA COLLECTION DASHBOARD</center></h1>
+<center>
+        <table style="width:1500px">
+        <tr>
+        <td><h2 style="color: black; text-align: center;">Soil moisture</h2>
+            <img src="soil.jpg" style="width: 450; height: 260; opacity: 0.9; text-align: center; margin-left: 10%;"></td>
+            <td>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1769144/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </td></tr>
+        <tr>
+            <td><h2 style="color: black; text-align: center;">Water level</h2>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc; margin-left: 10%;" src="https://thingspeak.com/channels/1769144/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </td><td><img src="water.jpg" style="width: 450; height: 260; opacity: 0.9;"></td>
+        <tr>
+            <td><h2 style="color: black; text-align: center;">Humidity</h2>
+            <img src="humidity.jpg" style="width: 450; height: 260; opacity: 0.9; margin-left: 10%;"></td>
+            <td>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1769144/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </td></tr>
+        <tr>
+            <td><h2 style="color: black; text-align: center;">Temperature</h2>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc; margin-left: 10%;" src="https://thingspeak.com/channels/1769144/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </td><td><img src="temp.jpg" style="width: 450; height: 260; opacity: 0.9;"></td>
+        <tr>
+            <td><h2 style="color: black; text-align: center;">Pressure</h2>
+            <img src="pressure.jpg" style="width: 450; height: 260; opacity: 0.9; margin-left: 10%;"></td>
+            <td>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1769144/charts/7?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe> 
+        </td></tr>
+        </table>
+</center>
+    </div>
+</html>
